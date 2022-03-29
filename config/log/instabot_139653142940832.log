@@ -1,0 +1,13 @@
+2022-03-27 23:01:51,180 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2022-03-27 23:01:51,180 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from /home/wrx/.local/lib/python3.8/site-packages/instabot/bot/bot.py
+2022-03-27 23:01:51,180 - instabot version: 0.117.0 (api_login) - INFO - Not yet logged in starting: PRE-LOGIN FLOW!
+2022-03-27 23:01:56,371 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/get_prefill_candidates/ returned response: <Response [200]>
+2022-03-27 23:01:56,592 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2022-03-27 23:01:56,762 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+2022-03-27 23:01:56,926 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/contact_point_prefill/ returned response: <Response [200]>
+2022-03-27 23:01:58,122 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/login/ returned response: <Response [400]>
+2022-03-27 23:01:58,122 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"challenge_required","challenge":{"url":"https://i.instagram.com/challenge/AXHv1yM4mbWoV5fCezUUllmimKOpU9h2zHi6gZmGv-toPzSjgCfhZIKh5n97dF6NoB_XcQ/gJdMAYSPoTEbv294/","api_path":"/challenge/AXHv1yM4mbWoV5fCezUUllmimKOpU9h2zHi6gZmGv-toPzSjgCfhZIKh5n97dF6NoB_XcQ/gJdMAYSPoTEbv294/","hide_webview_header":true,"lock":true,"logout":false,"native_flow":true,"flow_render_type":0},"status":"fail","error_type":"checkpoint_challenge_required"}'
+2022-03-27 23:01:58,123 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2022-03-27 23:01:58,124 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: challenge_required
+2022-03-27 23:01:58,124 - instabot version: 0.117.0 (api) - INFO - Error type: checkpoint_challenge_required
+2022-03-27 23:01:58,125 - instabot version: 0.117.0 (api) - CRITICAL - Not logged in!
